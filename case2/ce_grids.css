@@ -5,7 +5,7 @@
    Case Problem 2
    
    Style Sheet for Grids used in the Costume Expressions Front Page
-   Author: 
+   Author: Steven Thompson
    Date:   
    
    Filename: ce_grids.css
@@ -14,9 +14,20 @@
 
 
 /* Grid Rows Styles */
+div.row {
+    width: 100%;
+    clear: both;
+}
 
+div.row {
+    clear: both;
+}
 
-
+div.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
 
 /* Grid Columns Styles */
 
