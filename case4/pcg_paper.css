@@ -18,5 +18,15 @@
         background-color: gray;
     }
     body {
-        background-color: rgb(80, 83, 89);
+        background-color: rgb(47, 79, 79);
+    }
+    
+    /* Section Styles */
+    section {
+        background-color: rgb(255,222,173);
+    } 
+    
+    /* Footer Styles */
+    footer {
+        background-color: rgb(105, 105, 105);
     }
