@@ -1,4 +1,4 @@
-/@charset "utf-8";
+@charset "utf-8";
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -13,52 +13,10 @@
    Supporting Files: 
 
 */
-   /* General Styles */
-
-address, article, aside, blockquote, body, cite, 
-div, dl, dt, dd, em, figcaption, figure, footer, 
-h1, h2, h3, h4, h5, h6, header, html, img, 
-li, main, nav, ol, p, section, span, ul {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   font-size: 100%;
-   vertical-align: baseline;
-   background: transparent;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;  
-}
-
-html {
-    background-color: white;
-}
-
-    /* Body Styles */
-    
-body {
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 640px;
-    max-width: 960px;
-    background-color: rgb(80, 83, 89)
-}
-
-body > header > img {
-    display: block;
-    width: 100%;
-}
-
-body > header > nav ul {
-    list-style-type: none;
-}
-
-    /* Nav list Items */
-
-nav ul li a {
-    text-decoration: none;
-    display: block;
-    float: left;
-    margin-right: 20px;
-    margin-left: 20px;
-}
+        /* Body Styles */
+    html {
+        background-color: gray;
+    }
+    body {
+        background-color: rgb(80, 83, 89);
+    }
