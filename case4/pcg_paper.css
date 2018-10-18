@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Steven Thompson and Jeremy Snider
+   Date:   10/16/2018
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+        /* Body Styles */
+    html {
+        background-color: gray;
+    }
+    body {
+        background-color: rgb(47, 79, 79);
+    }
+    
+    /* Section Styles */
+    section {
+        background-color: rgb(255,222,173);
+    } 
+    
+    /* Footer Styles */
+    footer {
+        background-color: rgb(105, 105, 105);
+    }
